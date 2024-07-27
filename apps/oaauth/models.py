@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User, AbstractBaseUser, PermissionsMixin, BaseUserManager
 from django.contrib.auth.hashers import make_password
+from shortuuidfield import ShortUUIDField
 
 
 # Create your models here.
@@ -51,7 +52,7 @@ class OAUser(AbstractBaseUser, PermissionsMixin):
 
     Username and password are required. Other fields are optional.
     """
-
+    uid=ShortUUIDField(primary_key=True)
     realname = models.CharField(
         max_length=150,
         unique=False
