@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="add uid as primary key">
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="add leader table">
+      <change afterPath="$PROJECT_DIR$/apps/oaauth/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/oaauth/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/oaauth/management/commands/initdepartments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/oaauth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,28 +27,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2joQ6HWYzyBQBgTlP1XRfooXvp4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cangz\OneDrive\桌面\Django\OASystemBackend\apps" />
@@ -91,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722050772868</updated>
-      <workItem from="1722050783908" duration="12312000" />
+      <workItem from="1722050783908" duration="15542000" />
+      <workItem from="1723951710095" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -117,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722114170328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add leader table">
+      <option name="closed" value="true" />
+      <created>1722119103006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722119103006</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +140,7 @@
     <MESSAGE value="OA system initial" />
     <MESSAGE value="setup database, rewrite user model" />
     <MESSAGE value="add uid as primary key" />
-    <option name="LAST_COMMIT_MESSAGE" value="add uid as primary key" />
+    <MESSAGE value="add leader table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add leader table" />
   </component>
 </project>

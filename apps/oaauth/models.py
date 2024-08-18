@@ -10,7 +10,8 @@ class UserStatusChoices(models.IntegerChoices):
     ACTIVATED = 1
     INACTIVATED = 2
     LOCKED = 3
-class OAUserManager(BaseUserManager):
+class OAUserManager(BaseUserManager
+                    ):
     use_in_migrations = True
 
     def _create_user(self, realname, email, password, **extra_fields):
