@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="initial departments">
-      <change afterPath="$PROJECT_DIR$/apps/oaauth/management/commands/inituser.py" afterDir="false" />
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="initial user">
+      <change afterPath="$PROJECT_DIR$/apps/oaauth/authentications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/oaauth/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/oaauth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/oaauth/management/commands/initdepartments.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/management/commands/initdepartments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/oaauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722050772868</updated>
       <workItem from="1722050783908" duration="15542000" />
-      <workItem from="1723951710095" duration="3164000" />
+      <workItem from="1723951710095" duration="4264000" />
+      <workItem from="1723995971832" duration="2808000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -135,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723953247038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial user">
+      <option name="closed" value="true" />
+      <created>1723954892932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723954892932</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +158,7 @@
     <MESSAGE value="add uid as primary key" />
     <MESSAGE value="add leader table" />
     <MESSAGE value="initial departments" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial departments" />
+    <MESSAGE value="initial user" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial user" />
   </component>
 </project>
