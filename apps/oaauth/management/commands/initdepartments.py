@@ -11,5 +11,5 @@ class Command(BaseCommand):
         hr = OADepartment.objects.create(name="Human Resources",
                                          intro="Employee Recruitment, Employee Training, Employee Assessment")
         finance = OADepartment.objects.create(name="Finance", intro="Financial Reporting, Financial Review")
-        self.stdout.write('Departments data initial successful')
+        self.stdout.write('Departments data initial successfully created')
 
