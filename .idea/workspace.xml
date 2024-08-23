@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="section 63,time:14:00,login functionality">
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="Implementation of the login feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OASystemBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/oaauth/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/oaauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/oaauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1722050783908" duration="15542000" />
       <workItem from="1723951710095" duration="4264000" />
       <workItem from="1723995971832" duration="7165000" />
-      <workItem from="1724380860040" duration="1875000" />
+      <workItem from="1724380860040" duration="2508000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724000469500</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementation of the login feature">
+      <option name="closed" value="true" />
+      <created>1724382745364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724382745364</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +180,7 @@
     <MESSAGE value="initial departments" />
     <MESSAGE value="initial user" />
     <MESSAGE value="section 63,time:14:00,login functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="section 63,time:14:00,login functionality" />
+    <MESSAGE value="Implementation of the login feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of the login feature" />
   </component>
 </project>

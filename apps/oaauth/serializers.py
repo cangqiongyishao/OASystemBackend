@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import OAUser, UserStatusChoices
+from .models import OAUser, UserStatusChoices,OADepartment
 
 class LoginSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
@@ -9,7 +9,7 @@ class LoginSerializer(serializers.Serializer):
         email = attrs.get('email')
         password = attrs.get('password')
         if email and password:
-            user = OAUser.objects.get(email=email)
+            user = OAUser.objects.filter(email=email).first()
             if not user:
                 raise serializers.ValidationError('Please check your email')
             if not user.check_password(password):
@@ -22,3 +22,15 @@ class LoginSerializer(serializers.Serializer):
         else:
             raise serializers.ValidationError('Please enter correct email and password')
         return attrs
+
+class DepartmentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=OADepartment
+        fields = '__all__'
+
+class UserSerializer(serializers.ModelSerializer):
+
+    department = DepartmentSerializer()
+    class Meta:
+        model=OAUser
+        exclude=('password','groups','user_permissions')
