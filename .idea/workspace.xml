@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="initial user">
-      <change afterPath="$PROJECT_DIR$/apps/oaauth/authentications.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/oaauth/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/oaauth/urls.py" afterDir="false" />
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="section 63,time:14:00,login functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OASystemBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/oaauth/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/oaauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/oaauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,19 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django Server.OASystemBackend.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cangz\OneDrive\桌面\Django\OASystemBackend\apps" />
@@ -61,6 +65,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="OASystemBackend.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -96,7 +101,8 @@
       <updated>1722050772868</updated>
       <workItem from="1722050783908" duration="15542000" />
       <workItem from="1723951710095" duration="4264000" />
-      <workItem from="1723995971832" duration="2808000" />
+      <workItem from="1723995971832" duration="7165000" />
+      <workItem from="1724380860040" duration="1875000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -146,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723954892932</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="section 63,time:14:00,login functionality">
+      <option name="closed" value="true" />
+      <created>1724000469500</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724000469500</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +173,7 @@
     <MESSAGE value="add leader table" />
     <MESSAGE value="initial departments" />
     <MESSAGE value="initial user" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial user" />
+    <MESSAGE value="section 63,time:14:00,login functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="section 63,time:14:00,login functionality" />
   </component>
 </project>

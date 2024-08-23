@@ -9,7 +9,7 @@ class LoginSerializer(serializers.Serializer):
         email = attrs.get('email')
         password = attrs.get('password')
         if email and password:
-            user = OAUser.objects.get(email=email).first()
+            user = OAUser.objects.get(email=email)
             if not user:
                 raise serializers.ValidationError('Please check your email')
             if not user.check_password(password):
