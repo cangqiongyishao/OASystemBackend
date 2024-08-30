@@ -17,4 +17,4 @@ class LoginView(APIView):
             return Response({'token': token,'user':UserSerializer(user).data})
         else:
             print(serializer.errors)
-            return Response({'message':'parameter error'}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({'detail':'parameter error'}, status=status.HTTP_400_BAD_REQUEST)
