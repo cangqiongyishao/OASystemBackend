@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="get user information">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OASystemBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/oaauth/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/oaauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,8 @@
       <workItem from="1723995971832" duration="7165000" />
       <workItem from="1724380860040" duration="3232000" />
       <workItem from="1724726636720" duration="10000" />
-      <workItem from="1724990340766" duration="2010000" />
+      <workItem from="1724990340766" duration="3433000" />
+      <workItem from="1725243628378" duration="5403000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -176,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724383492731</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="get user information">
+      <option name="closed" value="true" />
+      <created>1724992583008</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724992583008</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

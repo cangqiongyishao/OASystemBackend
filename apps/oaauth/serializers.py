@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import OAUser, UserStatusChoices,OADepartment
 
 class LoginSerializer(serializers.Serializer):
-    email = serializers.EmailField(required=True)
+    email = serializers.EmailField(required=True,error_messages={"required":"Please enter your email"})
     password = serializers.CharField(max_length=20, min_length=6)
 
     def validate(self, attrs):
