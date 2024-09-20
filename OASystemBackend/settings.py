@@ -132,3 +132,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 # cover django user model
 AUTH_USER_MODEL = 'oaauth.OAUser'
+
+
+REST_FRAMEWORK={
+    'DEFAULT_AUTHENTICATION_CLASSES': ['apps.oaauth.authentications.JWTAuthentication']
+}

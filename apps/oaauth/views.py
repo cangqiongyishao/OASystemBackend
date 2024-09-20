@@ -1,10 +1,13 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
-from .serializers import LoginSerializer,UserSerializer
+from .serializers import LoginSerializer, UserSerializer
 from datetime import datetime
 from .authentications import generate_jwt
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
+
+
 # Create your views here.
 class LoginView(APIView):
     def post(self, request):
@@ -14,7 +17,17 @@ class LoginView(APIView):
             user.last_login = datetime.now()
             user.save()
             token = generate_jwt(user)
-            return Response({'token': token,'user':UserSerializer(user).data})
+            return Response({'token': token, 'user': UserSerializer(user).data})
         else:
-            detail=list(serializer.errors.values())[0][0]
-            return Response({'detail':detail}, status=status.HTTP_400_BAD_REQUEST)
+            detail = list(serializer.errors.values())[0][0]
+            return Response({'detail': detail}, status=status.HTTP_400_BAD_REQUEST)
+
+
+# class AuthenticatedRequestView(APIView):
+#     permission_classes = [IsAuthenticated]
+
+
+class ResetPwdView(APIView):
+
+    def post(self, request):
+        return Response({'message': 'success'})
