@@ -6,6 +6,8 @@ from .authentications import generate_jwt
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
+from .serializers import ResetPwdSerializer
+from rest_framework import status
 
 
 # Create your views here.
@@ -30,6 +32,13 @@ class LoginView(APIView):
 class ResetPwdView(APIView):
 
     def post(self, request):
-        print(request)
-        print(request.user)
-        return Response({'message': 'success'})
+        serializer = ResetPwdSerializer(data=request.data, context={'request': request})
+        if serializer.is_valid():
+            pwd1=serializer.validated_data.get('pwd1')
+            request.user.set_password(pwd1)
+            request.user.save()
+            return Response()
+        else:
+            print(serializer.errors)
+            detail = list(serializer.errors.values())[0][0]
+        return Response({'detail': detail},status=status.HTTP_400_BAD_REQUEST)

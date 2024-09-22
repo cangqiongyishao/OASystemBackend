@@ -20,7 +20,7 @@ class LoginCheckMiddleware(MiddlewareMixin):
         self.white_list = ['/auth/login/','/auth/register/']
     def process_view(self,request,view_func,view_args,view_kwargs):
 
-        if request.path == '/auth/login':
+        if request.path in self.white_list:
             request.user=AnonymousUser()
             request.auth=None
             return None
