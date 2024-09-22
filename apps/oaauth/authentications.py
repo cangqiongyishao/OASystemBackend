@@ -10,10 +10,15 @@ def generate_jwt(user):
     expire_time=time.time()+60*60*24*7
     return jwt.encode({'userid':user.pk,'exp':expire_time},key=settings.SECRET_KEY)
 
+
+class UserTokenAuthentication(BaseAuthentication):
+    def authenticate(self, request):
+        return request._request.user, request._request.auth
+
 class JWTAuthentication(BaseAuthentication):
     keyword='JWT'
     def authenticate(self, request):
-        auth = request.headers.get('Authorization', '').split()
+        auth = get_authorization_header(request).split()
 
         if not auth or auth[0].lower() != self.keyword.lower().encode():
             return None
@@ -38,6 +43,6 @@ class JWTAuthentication(BaseAuthentication):
             except:
                 msg = "User does not exist!"
                 raise exceptions.AuthenticationFailed(msg)
-        except jwt.ExpiredSignatureError:
+        except ExpiredSignatureError:
             msg = "JWT Token has expired!"
             raise exceptions.AuthenticationFailed(msg)

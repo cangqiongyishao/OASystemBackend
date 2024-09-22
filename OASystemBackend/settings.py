@@ -52,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'apps.oaauth.middlewares.LoginCheckMiddleware'
 ]
 
 ROOT_URLCONF = 'OASystemBackend.urls'
@@ -135,5 +136,5 @@ AUTH_USER_MODEL = 'oaauth.OAUser'
 
 
 REST_FRAMEWORK={
-    'DEFAULT_AUTHENTICATION_CLASSES': ['apps.oaauth.authentications.JWTAuthentication']
+    'DEFAULT_AUTHENTICATION_CLASSES': ['apps.oaauth.authentications.UserTokenAuthentication']
 }

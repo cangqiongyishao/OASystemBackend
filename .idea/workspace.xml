@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="Optimize login failure prompts">
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="middleware initial">
+      <change afterPath="$PROJECT_DIR$/apps/oaauth/middlewares.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OASystemBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/oaauth/authentications.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/authentications.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/oaauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/oaauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +107,7 @@
       <workItem from="1724726636720" duration="10000" />
       <workItem from="1724990340766" duration="3433000" />
       <workItem from="1725243628378" duration="6718000" />
-      <workItem from="1726457868674" duration="947000" />
+      <workItem from="1726457868674" duration="5735000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -194,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725590560222</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="middleware initial">
+      <option name="closed" value="true" />
+      <created>1726806782294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726806782294</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +222,7 @@
     <MESSAGE value="Implementation of the login feature" />
     <MESSAGE value="get user information" />
     <MESSAGE value="Optimize login failure prompts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize login failure prompts" />
+    <MESSAGE value="middleware initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="middleware initial" />
   </component>
 </project>

@@ -30,4 +30,6 @@ class LoginView(APIView):
 class ResetPwdView(APIView):
 
     def post(self, request):
+        print(request)
+        print(request.user)
         return Response({'message': 'success'})
