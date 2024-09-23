@@ -17,7 +17,7 @@ class LoginCheckMiddleware(MiddlewareMixin):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         # 对于那些不需要登录就能访问的接口，可以写在这里
-        self.white_list = ['/auth/login/','/auth/register/']
+        self.white_list = ['/auth/login','/auth/register']
     def process_view(self,request,view_func,view_args,view_kwargs):
 
         if request.path in self.white_list:
