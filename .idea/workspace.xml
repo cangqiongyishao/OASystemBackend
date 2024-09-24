@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="change password backend bug fixed">
-      <change afterPath="$PROJECT_DIR$/apps/absent/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/absent/views.py" afterDir="false" />
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="absent views and serializers part 1">
+      <change afterPath="$PROJECT_DIR$/apps/absent/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/management/commands/initabsenttype.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OASystemBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OASystemBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/absent/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/absent/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/absent/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/absent/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727054177154</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="absent views and serializers part 1">
+      <option name="closed" value="true" />
+      <created>1727148492183</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727148492183</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +249,7 @@
     <MESSAGE value="middleware initial" />
     <MESSAGE value="middleware logincheck" />
     <MESSAGE value="change password backend bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="change password backend bug fixed" />
+    <MESSAGE value="absent views and serializers part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="absent views and serializers part 1" />
   </component>
 </project>
