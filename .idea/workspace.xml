@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="middleware logincheck">
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="change password backend bug fixed">
+      <change afterPath="$PROJECT_DIR$/apps/absent/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/absent/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/oaauth/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/oaauth/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/oaauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/oaauth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OASystemBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OASystemBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726979366189</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="change password backend bug fixed">
+      <option name="closed" value="true" />
+      <created>1727054177154</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727054177154</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +246,7 @@
     <MESSAGE value="Optimize login failure prompts" />
     <MESSAGE value="middleware initial" />
     <MESSAGE value="middleware logincheck" />
-    <option name="LAST_COMMIT_MESSAGE" value="middleware logincheck" />
+    <MESSAGE value="change password backend bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="change password backend bug fixed" />
   </component>
 </project>

@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     # install rest_framework
     'rest_framework',
     'corsheaders',
-    'apps.oaauth'
+    'apps.oaauth',
+    'apps.absent'
 ]
 
 MIDDLEWARE = [
