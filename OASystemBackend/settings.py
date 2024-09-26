@@ -139,3 +139,5 @@ AUTH_USER_MODEL = 'oaauth.OAUser'
 REST_FRAMEWORK={
     'DEFAULT_AUTHENTICATION_CLASSES': ['apps.oaauth.authentications.UserTokenAuthentication']
 }
+
+APPEND_SLASH=False

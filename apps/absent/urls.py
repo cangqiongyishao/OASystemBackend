@@ -5,7 +5,7 @@ from . import views
 
 app_name = 'absent'
 
-router = DefaultRouter()
+router = DefaultRouter(trailing_slash=False)
 
 router.register('absent', views.AbsentViewSet, basename='absent')
 
