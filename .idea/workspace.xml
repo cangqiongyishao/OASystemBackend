@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="absent views and serializers part 3">
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="absent views and serializers part 4">
+      <change afterPath="$PROJECT_DIR$/apps/absent/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OASystemBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/absent/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/absent/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/absent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/absent/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/absent/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/absent/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +108,7 @@
       <workItem from="1724990340766" duration="3433000" />
       <workItem from="1725243628378" duration="6718000" />
       <workItem from="1726457868674" duration="6740000" />
-      <workItem from="1727743487390" duration="632000" />
+      <workItem from="1727743487390" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -242,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727322583286</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="absent views and serializers part 4">
+      <option name="closed" value="true" />
+      <created>1727744129758</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727744129758</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +277,7 @@
     <MESSAGE value="absent views and serializers part 1" />
     <MESSAGE value="absent views and serializers part 2" />
     <MESSAGE value="absent views and serializers part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="absent views and serializers part 3" />
+    <MESSAGE value="absent views and serializers part 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="absent views and serializers part 4" />
   </component>
 </project>

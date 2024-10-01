@@ -5,6 +5,9 @@ from rest_framework import mixins
 from rest_framework.response import Response
 from .models import Absent, AbsentType, AbsentStatusChoices
 from .serializers import AbsentSerializer, AbsentTypeSerializer
+from rest_framework.views import APIView
+from .utils import get_responder
+from apps.oaauth.serializers import UserSerializer
 
 
 # Create your views here.
@@ -30,3 +33,15 @@ class AbsentViewSet(mixins.CreateModelMixin,
         serializer=self.serializer_class(result,many=True)
         return Response(data=serializer.data)
 
+class AbsentTypeView(APIView):
+    def get(self, request):
+        types=AbsentType.objects.all()
+        serializer=AbsentTypeSerializer(types,many=True)
+        return Response(data=serializer.data)
+
+class ResponderView(APIView):
+
+    def get(self, request):
+        responders=get_responder(request)
+        serializer=UserSerializer(responders)
+        return Response(data=serializer.data)

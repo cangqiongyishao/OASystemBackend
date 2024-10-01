@@ -9,4 +9,7 @@ router = DefaultRouter(trailing_slash=False)
 
 router.register('absent', views.AbsentViewSet, basename='absent')
 
-urlpatterns = [] + router.urls
+urlpatterns = [
+    path('type',views.AbsentTypeView.as_view(),name='absenttypes'),
+    path('responder',views.ResponderView.as_view(),name='getrespnder')
+              ] + router.urls
