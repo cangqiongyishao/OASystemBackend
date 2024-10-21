@@ -13,3 +13,5 @@ urlpatterns = [
     path('type',views.AbsentTypeView.as_view(),name='absenttypes'),
     path('responder',views.ResponderView.as_view(),name='getrespnder')
               ] + router.urls
+
+# test
