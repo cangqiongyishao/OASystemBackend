@@ -24,3 +24,7 @@ class Absent(models.Model):
     create_time = models.DateTimeField(auto_now_add=True)
     response_content=models.TextField(blank=True)
 
+
+    class Meta:
+        ordering = ('-create_time',)
+

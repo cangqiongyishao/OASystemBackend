@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'apps.oaauth',
-    'apps.absent'
+    'apps.absent',
+    'apps.inform'
 ]
 
 MIDDLEWARE = [
