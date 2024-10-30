@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="inform model created">
-      <change afterPath="$PROJECT_DIR$/apps/inform/serializers.py" afterDir="false" />
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="Implement Inform Serializer">
+      <change afterPath="$PROJECT_DIR$/apps/inform/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OASystemBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/inform/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inform/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/inform/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inform/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +108,7 @@
       <workItem from="1725243628378" duration="6718000" />
       <workItem from="1726457868674" duration="6740000" />
       <workItem from="1727743487390" duration="7420000" />
-      <workItem from="1729531644419" duration="7124000" />
+      <workItem from="1729531644419" duration="12542000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -291,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729721641358</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Implement Inform Serializer">
+      <option name="closed" value="true" />
+      <created>1730165936691</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730165936691</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +329,7 @@
     <MESSAGE value="Absent type and responder API" />
     <MESSAGE value="pagination" />
     <MESSAGE value="inform model created" />
-    <option name="LAST_COMMIT_MESSAGE" value="inform model created" />
+    <MESSAGE value="Implement Inform Serializer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Inform Serializer" />
   </component>
 </project>
