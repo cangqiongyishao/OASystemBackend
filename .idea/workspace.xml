@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="Implement Inform Serializer">
-      <change afterPath="$PROJECT_DIR$/apps/inform/urls.py" afterDir="false" />
+    <list default="true" id="ea5adc04-62a7-457f-afcf-83ffb94d1667" name="Changes" comment="inform part 1">
+      <change afterPath="$PROJECT_DIR$/apps/staff/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/staff/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/staff/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/staff/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/staff/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/staff/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/staff/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/staff/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OASystemBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OASystemBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OASystemBackend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/inform/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inform/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/inform/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inform/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +115,8 @@
       <workItem from="1725243628378" duration="6718000" />
       <workItem from="1726457868674" duration="6740000" />
       <workItem from="1727743487390" duration="7420000" />
-      <workItem from="1729531644419" duration="12542000" />
+      <workItem from="1729531644419" duration="15629000" />
+      <workItem from="1738720673123" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="OA system initial">
       <option name="closed" value="true" />
@@ -302,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730165936691</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="inform part 1">
+      <option name="closed" value="true" />
+      <created>1730258041399</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1730258041399</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +346,7 @@
     <MESSAGE value="pagination" />
     <MESSAGE value="inform model created" />
     <MESSAGE value="Implement Inform Serializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Inform Serializer" />
+    <MESSAGE value="inform part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="inform part 1" />
   </component>
 </project>

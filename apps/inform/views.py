@@ -10,4 +10,3 @@ class InformViewSet(mixins.CreateModelMixin,
                     viewsets.GenericViewSet):
     queryset = Inform.objects.all()
     serializer_class = InformSerializer
-f
